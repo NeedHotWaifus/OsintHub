@@ -1,7 +1,7 @@
 game.StarterGui:SetCore("SendNotification", {
    Title = 'Aimviewer Loaded';
    Text = 'P to enable/disable, t to switch ';
-   Icon = 'rbxassetid://13209787743';
+   Icon = '';
    Duration = "2";
 })
 _G.enable = false
