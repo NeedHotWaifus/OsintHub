@@ -31,7 +31,7 @@ local userInputService = game:GetService("UserInputService")
 
 userInputService.InputBegan:Connect(function(input, gameProcessed)
     if gameProcessed then return end
-    if input.KeyCode == Enum.KeyCode.T then -- Press "T" to toggle
+    if input.KeyCode == Enum.KeyCode.U then -- Press "U" to toggle
         toggleSky()
     elseif input.KeyCode == Enum.KeyCode.H then -- Press "H" to increase anti
         increaseSkyHeight()
@@ -47,4 +47,4 @@ game:GetService("RunService").heartbeat:Connect(function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = vel
     end
 end)
-print("this works t to toggle, h to go higher")
+print("this works u to toggle, h to go higher")
